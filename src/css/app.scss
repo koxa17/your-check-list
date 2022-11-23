@@ -1,0 +1,15 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import "_variables";
+@import "light";
+@import "dark";
+
+html, body {
+  font-size: $font-size;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+

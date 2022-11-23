@@ -1,0 +1,33 @@
+@import "quasar.variables";
+
+body.body--dark {
+  .q-toolbar {
+    background: $grey-3;
+  }
+
+  .q-list.question__list{
+    background: $grey-2;
+  }
+
+  .q-toggle {
+
+    &__track, &__icon {
+      background: $grey;
+    }
+  }
+
+  .q-input {
+    .q-field__control {
+      background: #21262b;
+    }
+
+  }
+
+  .question__list__item{
+    .q-btn .question__list__item__btn-done {
+      background: $grey-3;
+    }
+  }
+}
+
+
